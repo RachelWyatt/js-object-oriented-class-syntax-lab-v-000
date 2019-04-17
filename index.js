@@ -1,5 +1,6 @@
     
-class BoardMember(name, homeState, training){
+class BoardMember {
+  (name, homeState, training){
    this.name = name
    this.homeState = homeState
    this.training = training
@@ -21,3 +22,4 @@ class BoardMember(name, homeState, training){
    BoardMember.prototype.sayHi = function(){
      return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
    }
+}
